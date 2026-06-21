@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://creanova-seven.vercel.app/images/favi-con.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>CreaNova Academy</title>
+    <!-- bootstrap cdn css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
+      integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "PT Sans", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row g-0">
+        <!-- left sidebar  -->
+        <nav class="col-2">
+          <!-- icon and text -->
+          <h1 class="h4 text-center text-primary py-3">
+            <img src="images/logo.png" alt="" style="width: 50px" />
+            <span class="d-none d-lg-inline">Admin</span>
+          </h1>
+
+          <!-- menu list -->
+          <div class="list-group text-center text-lg-start">
+            <span class="list-group-item disabled d-none d-lg-block">
+              <small>CONTROLS</small>
+            </span>
+            <a href="#" class="list-group-item list-group-item-action active"
+              ><i class="bi bi-house-fill me-2"></i
+              ><span class="d-none d-lg-inline">Dashboard</span></a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              ><i class="bi bi-people-fill me-2"></i
+              ><span class="d-none d-lg-inline">Users</span>
+              <span
+                class="d-none d-lg-inline badge bg-danger rounded-pill float-end"
+                >20</span
+              ></a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              ><i class="bi bi-person-workspace me-2"></i
+              ><span class="d-none d-lg-inline">Courses</span></a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              ><i class="bi bi-house-fill me-2"></i
+              ><span class="d-none d-lg-inline">Dashboard</span></a
+            >
+          </div>
+        </nav>
+
+        <!-- right content -->
+        <div class="col-10 bg-secondary">
+          <!-- horizontal navbar -->
+          <ul class="nav justify-content-end bg-light py-3">
+            <li class="nav-item dropdown">
+              <button
+                class="btn nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                type="button"
+                aria-expanded="false"
+              >
+                <i class="bi bi-person-circle"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">User profile</a></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-gear"></i></a>
+            </li>
+          </ul>
+
+          <!-- right body -->
+          <div class="container-fluid p-5">
+            <div class="row">
+              <div class="col">
+                <!-- alert box -->
+                <div class="alert alert-primary" role="alert">
+                  <i class="bi bi-download"></i>
+                  A simple primary alert—check it out!
+                  <a href="#">Dowload Now!</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- quick stats section -->
+            <div class="row mt-2 d-flex flex-column flex-lg-row">
+              <div class="row d-flex flex-column flex-lg-row">
+                <h2 class="h5 text-white-50">QUICK STATS</h2>
+                <div class="col">
+                  <div class="card mb-3">
+                    <div class="card-body p-2">
+                      <h3 class="card-title h2">1,235</h3>
+
+                      <span class="text-success">
+                        <i class="bi bi-graph-up-arrow"></i>Daily Visitors</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card mb-3">
+                    <div class="card-body p-2">
+                      <h3 class="card-title h2">1,235</h3>
+
+                      <span class="text-success">
+                        <i class="bi bi-graph-up-arrow"></i>Daily Visitors</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card mb-3">
+                    <div class="card-body p-2">
+                      <h3 class="card-title h2">1,235</h3>
+
+                      <span class="text-success">
+                        <i class="bi bi-graph-up-arrow"></i>Daily Visitors</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card mb-3">
+                    <div class="card-body p-2">
+                      <h3 class="card-title h2">1,235</h3>
+
+                      <span class="text-success">
+                        <i class="bi bi-graph-up-arrow"></i>Daily Visitors</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- location and data -->
+            <div class="row mt-2 d-flex flex-column flex-lg-row">
+              <div class="col mt-2">
+                <h2 class="h5 text-white-50">LOCATION</h2>
+                <div class="card" style="height: 250px">
+                  <div class="card-body">
+                    <div class="mb-3">
+                      <span class="text-muted">Regional</span>
+                      <div
+                        class="progress mt-2"
+                        role="progressbar"
+                        aria-label="Success example"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 5px"
+                      >
+                        <div
+                          class="progress-bar bg-success"
+                          style="width: 25%"
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <span class="text-muted">Local</span>
+                      <div
+                        class="progress mt-2"
+                        role="progressbar"
+                        aria-label="Success example"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 5px"
+                      >
+                        <div
+                          class="progress-bar bg-warning"
+                          style="width: 50%"
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <span class="text-muted">Regional</span>
+                      <div
+                        class="progress mt-2"
+                        role="progressbar"
+                        aria-label="Success example"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 5px"
+                      >
+                        <div
+                          class="progress-bar bg-danger"
+                          style="width: 25%"
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <span class="text-muted">Regional</span>
+                      <div
+                        class="progress mt-2"
+                        role="progressbar"
+                        aria-label="Success example"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 5px"
+                      >
+                        <div
+                          class="progress-bar bg-success"
+                          style="width: 75%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- data section -->
+              <div class="col mt-2">
+                <h2 class="h5 text-uppercase text-white-50">Data</h2>
+                <div class="card" style="height: 250px">
+                  <div class="card-body">
+                    <!-- btn group -->
+                    <div class="text-end">
+                      <button type="button" class="btn btn-outline-secondary">
+                        <i class="bi bi-search"></i>
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        <i class="bi bi-bar-chart-line-fill"></i>
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        <i class="bi bi-search"></i>
+                      </button>
+                    </div>
+
+                    <!-- tabel -->
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">ID</th>
+                          <th scope="col">Age Group</th>
+                          <th scope="col">Data</th>
+                          <th scope="col">Progress</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>20-30</td>
+                          <td>19%</td>
+                          <td><i class="bi bi-pie-chart-fill"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>20-30</td>
+                          <td>19%</td>
+                          <td><i class="bi bi-pie-chart-fill"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>20-30</td>
+                          <td>19%</td>
+                          <td><i class="bi bi-pie-chart-fill"></i></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer  -->
+    <footer class="text-center py-4 text-muted">
+      <p>&copy; <span id="year">2026</span> CreaNova.</p>
+    </footer>
+
+    <!-- bootstrap cdn js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js"
+      integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
